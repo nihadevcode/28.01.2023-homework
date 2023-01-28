@@ -1,0 +1,101 @@
+body {
+}
+
+#header .heading {
+    /* background-color: gray; */
+    width: 3000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px gray;
+}
+
+#header .heading span {
+    color: blue;
+    font-size: 50px;
+}
+
+#content .cards {
+
+    margin-top: 20px;
+
+}
+
+#content .cards .post {
+    box-shadow: 0px 0px 20px 0px gray;
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+#content .cards .post .top {}
+
+#content .cards .post .top .label {}
+
+#content .cards .post .top .image {}
+
+#content .cards .post .top .image img {
+    height: 250px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* _________ */
+
+#content .cards .post .bottom {
+    padding: 10px 15px 0px 15px;
+}
+
+#content .cards .post .bottom .text {}
+
+#content .cards .post .bottom .text .tags {}
+
+#content .cards .post .bottom .text .tags span {
+    color: rgb(20, 20, 219);
+}
+
+#content .cards .post .bottom .text .content {}
+
+#content .cards .post .bottom .text .content .header {}
+
+#content .cards .post .bottom .text .content .header h1 {
+    font-size: 25px;
+}
+
+#content .cards .post .bottom .text .content .paragraph {}
+
+#content .cards .post .bottom .text .content .paragraph p {
+    font-size: 13px;
+}
+
+#content .cards .post .bottom .profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#content .cards .post .bottom .profile .picture {
+    height: 80px;
+    width: 80px;
+}
+
+#content .cards .post .bottom .profile .picture img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    overflow: hidden;
+
+}
+
+#content .cards .post .bottom .profile .data {
+
+}
+
+#content .cards .post .bottom .profile .data .name {
+font-weight: bolder;
+}
+
+#content .cards .post .bottom .profile .data .followers {
+
+}

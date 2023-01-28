@@ -1,0 +1,159 @@
+body {
+    background-color: magenta;
+}
+
+@media only screen and (max-width: 900px) {
+
+    body {
+        background-color: #007F00;
+    }
+
+    #cards .header {
+        font-size: 10px;
+    }
+
+    #cards .footer {
+        font-size: 10px;
+    }
+
+
+
+    #cards .colpad :hover {
+        background-color: yellow;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+
+    #cards .carddiv{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cards .colpad :hover p{
+        color: white;
+    }
+
+}
+
+#cards {}
+
+#cards .carddiv{
+
+}
+
+#cards .header {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#cards .footer {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#cards .colpad {
+    padding: 30px;
+}
+
+
+#cards .box1 {
+    /* display: flex;
+    justify-content: center; */
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+#cards .box1 .profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+#cards .box1 .profile-picture img {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+    border-color: magenta;
+    border-style: groove;
+}
+
+#cards .box1 .name-star {
+    padding-top: 20px;
+}
+
+#cards .box1 .name-star .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: magenta;
+    font-size: 25px;
+}
+
+#cards .box1 .name-star .name h1 {
+    color: magenta;
+    font-size: 25px;
+}
+
+#cards .box1 .name-star .stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+#cards .box1 .name-star .stars .checked {
+    color: magenta;
+}
+
+#cards .box1 .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#cards .box1 .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+#cards .box1 .buttons .readm {
+    padding: 7px 24px;
+    border-color: magenta;
+    border-style: groove;
+    border-radius: 5px;
+    color: magenta;
+    text-decoration: none;
+}
+
+#cards .box1 .buttons .subs {
+    padding: 10px 24px;
+    background-color: magenta;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
